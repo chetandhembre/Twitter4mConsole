@@ -1,4 +1,3 @@
-
 /**
  * created by : @ichetandhembre
  */
@@ -20,8 +19,8 @@ var remoteUrl = 'http://consoletweet.herokuapp.com/authtoken';
 var localUrl = 'http://justunfollow.net:5000/authtoken'
 var  oauth =
     { callback: remoteUrl
-        , consumer_key: '5IRnp9TMI1kNQjC9bGQog'
-        , consumer_secret: 'enBGmi2iSfBf5d22E1297G9VBjpFrjwcT7mPtFNqDg'
+        , consumer_key: '#######'
+        , consumer_secret: '######'
     }
     , url = 'https://api.twitter.com/oauth/request_token'
     ;
@@ -38,8 +37,8 @@ app.get('/',function(req,res) {
 app.get('/authtoken',function(req,response){
     
     var oauth1 =
-     { consumer_key: '5IRnp9TMI1kNQjC9bGQog'
-     , consumer_secret: 'enBGmi2iSfBf5d22E1297G9VBjpFrjwcT7mPtFNqDg'
+     { consumer_key: '########'
+     , consumer_secret: '#######'
      , token: req.query.oauth_token
      , verifier: req.query.oauth_verifier
      }
@@ -59,8 +58,8 @@ app.get('/sendtweet',function(req,res){
     var tweet = req.query.tweet;
     console.log(tweet)
     var oauth2 = {
-        consumer_key: '5IRnp9TMI1kNQjC9bGQog'
-        , consumer_secret: 'enBGmi2iSfBf5d22E1297G9VBjpFrjwcT7mPtFNqDg'
+        consumer_key: '######'
+        , consumer_secret: '######'
         , token: oauthtoken
         , token_secret: array1[oauthtoken]
     }
