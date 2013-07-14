@@ -10,7 +10,7 @@ Respository contain <code>tweet</code> file which you need to add <code>/usr/loc
 
 <ul>
     <li>
-        run commond <code> tweet -l </code> to get stated 
+        run commond <code> tweet -l </code> to get started 
         this will open <a href="http://consoletweet.herokuapp.com/">this</a> in you default browser. After login you 
         will get oauth id
     </li> 
@@ -19,12 +19,12 @@ Respository contain <code>tweet</code> file which you need to add <code>/usr/loc
        process 
     </li>
     <li> 
-       run commond <code> tweet -t text </code> . <code> text </code> should be write in double qoutes. You can write 
+       run commond <code> tweet -t text </code> . <code> text </code> should be in double qoutes. You can have
        text without qoutes but shell script wont consider special characters. You can find special character in shell 
        script on internet
     </li>
     <li> 
-        you can find more information using <code> tweet --help </code> 
+        you can get help using <code> tweet --help </code> 
     </li>
 </ul>
 
