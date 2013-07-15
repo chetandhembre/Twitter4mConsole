@@ -15,11 +15,12 @@ Respository contain <code>tweet</code> file which you need to add <code>/usr/loc
         will get oauth id
     </li> 
     <li>
-       run command <code> tweet -a oauthid </code>. <code>oauthid</code> is you recieved after login. this will one time
-       process 
+       run command <code> sudo tweet -a oauthid </code>. <code>oauthid</code> is you recieved after login. this will one time
+       process . it require user authentication as i am creating file in restricted folder. Do not worry i wont adding any 
+       bad code :)
     </li>
     <li> 
-       run commond <code> tweet -t text </code> . <code> text </code> should be in double qoutes. You can have
+       run commond <code> tweet -t "text" </code> . <code> text </code> should be in double qoutes. You can have
        text without qoutes but shell script wont consider special characters. You can find special character in shell 
        script on internet
     </li>
